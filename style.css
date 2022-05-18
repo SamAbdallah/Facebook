@@ -108,6 +108,32 @@ input[type=text] {
   }
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.footer{
+    background-color: white;
+    margin-top: 150px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 20px;
+}
+
+a{
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+
+}
+
+
+
 @media (max-width: 700px) {
   .container{
       flex-direction: column;
@@ -122,6 +148,9 @@ input[type=text] {
   }
   .last{
       margin-left:16% ;
+  }
+  .row{
+      flex-direction: column;
   }
 }
 
