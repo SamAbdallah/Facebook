@@ -5,6 +5,7 @@
     background: white;
     border-radius: 10px;
     margin-right: 350px;
+
 }
 
 .box{
@@ -39,13 +40,14 @@ html{
 .text{
     font-size: x-large;
     font-family: Calibri;
+    margin-top: -20px;
 }
 
 .frame1{
         border: 2px solid lightgray;
         border-radius: 8px;
         padding: 10px;
-        color: lightgray;
+        color: gray;
     }
 
 .frame2{
@@ -70,11 +72,36 @@ hr.bord {
         text-align: center;
     }
 
-
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .container{
       flex-direction: column;
   }
+  .box{
+      margin-top: -50px;
+      margin-left: 40%;
+      margin-bottom: -150px;
+  }
+  .box2{
+      margin-left: 30%;
+  }
 }
+
+
+
+@media (max-width: 700px) {
+  .container{
+      flex-direction: column;
+  }
+  .box{
+      margin-top: -50px;
+      margin-left: 25%;
+      margin-bottom: -150px;
+  }
+  .box2{
+      margin-left: 8%;
+  }
+}
+
+
 
 
