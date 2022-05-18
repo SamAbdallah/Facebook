@@ -47,7 +47,7 @@ html{
         border: 2px solid lightgray;
         border-radius: 8px;
         padding: 10px;
-        color: gray;
+        color: lightgray;
     }
 
 .frame2{
@@ -85,6 +85,24 @@ hr.bord {
       margin-left: 30%;
   }
 }
+
+
+input[type=text] {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    color: lightgray;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+
+
+
+
 
 
 
