@@ -1,0 +1,76 @@
+.box2{
+    width: 350px;
+    padding: 15px;
+    margin-top: 180px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 350px;
+}
+
+.box{
+    width: 200px;
+    height: 300px;
+    margin-top: 180px;
+    margin-left: 20%;
+
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+html{
+    background-color:lightgray ;
+}
+
+.facebook{
+    color: blue;
+    font-size: xxx-large;
+    font-family: Calibri;
+}
+
+
+.text{
+    font-size: x-large;
+    font-family: Calibri;
+}
+
+.frame1{
+        border: 2px solid lightgray;
+        border-radius: 8px;
+        padding: 10px;
+        color: lightgray;
+    }
+
+.frame2{
+        border: 2px solid blue;
+        background-color: blue;
+        border-radius: 8px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+hr.bord {
+  border-top: 1px solid gray;
+}
+
+
+.frame3{
+        border: 2px green;
+        background-color: green;
+        border-radius: 8px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+
