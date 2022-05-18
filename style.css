@@ -43,12 +43,7 @@ html{
     margin-top: -20px;
 }
 
-.frame1{
-        border: 2px solid lightgray;
-        border-radius: 8px;
-        padding: 10px;
-        color: lightgray;
-    }
+
 
 .frame2{
         border: 2px solid blue;
@@ -72,6 +67,29 @@ hr.bord {
         text-align: center;
     }
 
+
+
+
+input[type=text] {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+
+.last{
+    margin-left: 50%;
+    font-size: medium;
+}
+
+
+
+
 @media (max-width: 1200px) {
   .container{
       flex-direction: column;
@@ -84,27 +102,11 @@ hr.bord {
   .box2{
       margin-left: 30%;
   }
+
+  .last{
+      margin-left: 35%;
+  }
 }
-
-
-input[type=text] {
-    width: 100%;
-    border: 2px solid lightgray;
-    border-radius: 8px;
-    padding: 10px;
-    color: lightgray;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    color: black;
-
-}
-
-
-
-
-
-
-
 
 @media (max-width: 700px) {
   .container{
@@ -118,7 +120,11 @@ input[type=text] {
   .box2{
       margin-left: 8%;
   }
+  .last{
+      margin-left:16% ;
+  }
 }
+
 
 
 
